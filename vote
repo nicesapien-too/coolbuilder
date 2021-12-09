@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voting</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="description" content="Who will you vote? Me or You?">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            color: rgb(24,203,172);
+            font-family: 'lato', 'Sans-Serif';
+        }
+        html {
+            text-align: center;
+        }
+        a {
+          font-family: 'lato', 'Sans-Serif';
+        }
+    </style>
+</head>
+<body>
+<h1 id="targetl"></h1>
+<script>
+function poop() {
+    var whoiscool = ["Voting error", "Voting complete!"];
+    var random = ~~(Math.random() * whoiscool.length);
+    var target = document.getElementById("targetl");
+target.innerText = whoiscool[random];
+if (random == 1) {
+document.getElementById("fart").innerHTML += "<p>Thank you for voting<a><b>YouTheGreat</b></a></p>";
+    }
+    };
+    poop();
+    </script>
+    
+    <div id="fart"></div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 # YouTheGreat
-Make yourself ths greatest person in the world.
+Make yourself the greatest person in the world.
 ## Why use YouTheGreat?
 • Dark theme support
 

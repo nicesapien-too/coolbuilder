@@ -1,5 +1,12 @@
 # YouTheGreat
 Make yourself ths greatest person in the world.
+## Why use YouTheGreat?
+• Dark theme support
+
+• Attractive UI
+
+• COMPLETELY FREE AND OPEN-SOURCE!
+
 ## Installation 
 1. Create a InfinityFree account.
 2. Create a new hosting account with any domain.

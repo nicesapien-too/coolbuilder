@@ -20,6 +20,6 @@ Make yourself the greatest person in the world.
 
 ## Installation (Github)
 1. Fork the repository. 
-2. Enable Github pages going to public folder.
+2. Enable Github pages.
 3. Replace "You" with your name in code everywhere.
 #### Enjoy!

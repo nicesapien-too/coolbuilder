@@ -1,6 +1,6 @@
-# YouTheGreat
-Make yourself the greatest person in the world.
-## Why use YouTheGreat?
+# YouTheCool
+Make yourself the coolest person in the world.
+## Why use YouTheCool?
 • Dark theme support
 
 • Attractive UI
@@ -14,12 +14,16 @@ Make yourself the greatest person in the world.
 4. Click on sub-domains
 5. Type in your name, then click "Create".
 6. Then open file manager and upload files from public folder in the htdocs folder.
-7. Replace "You" with your name in code everywhere.
+7. Replace "name" constant variable with your name in config.js file.
 8. Open the subdomain you created in a web browser.
 #### Enjoy!
 
-## Installation (Github)
-1. Fork the repository. 
-2. Enable Github pages.
-3. Replace "You" with your name in code everywhere.
+## Hosting (Github)
+1. Fork the repository.
+2. Move files to root from public folder, and delete any duplicate files from root folder.
+3 Enable Github pages.
+4 Replace "name" constant variable with your name in config.js file.
+
+## Contributing
+The code is mainly in public folder. So, I think editing any other file is not needed. However, you might want to edit readme after editing code, you can do that. After making changes to code you can open a pull request. NEVER EVER make changes to any file in `main` branch. Always use `dev` branch
 #### Enjoy!

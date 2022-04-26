@@ -163,10 +163,11 @@ background: linear-gradient(to right, coral,
 if(title_el){
     title_el.innerHTML = name+"The"+guyType;
 }
-document.getElementById("contact").innerHTML = "Contact Us";
           </script>
-          <footer>
-            <h6>Version 1.0.21, created by <a href="https://github.com/nicesapien" class="gradecool">NiceSapien</a>. This page may contain fake content, please don't mind. <a id="contact" style="color: rgb(24,203,172);">Contact us</a>
+          <footer> 
+            <h6>Version 1.0.21, created by <a href="https://github.com/nicesapien" class="gradecool">NiceSapien</a>. This page may contain fake content, please don't mind. <a id="contact" style="color: rgb(24,203,172);">Contact us</a><script type="text/javascript" charset="utf-8">
+              document.getElementById("contact").href = 'mailto:'+contact_email;
+            </script>
           </footer>
     </body>
  </html>

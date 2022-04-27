@@ -1,5 +1,4 @@
-    function load() {  
-const getName = document.getElementsByClassName("nam");
+      const getName = document.getElementsByClassName("nam");
       const justName = document.getElementsByClassName("nami");
       const constHowGuy = document.getElementsByClassName("howGuy");
       for (let countit = 0; countit < constHowGuy.length; countit++) {
@@ -15,4 +14,4 @@ const getName = document.getElementsByClassName("nam");
       let title_el = document.querySelector("title");
       if (title_el) {
         title_el.innerHTML = name + "The" + guyType;
-      }}
+      }

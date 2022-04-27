@@ -160,24 +160,7 @@
       </div>
       </a>
     </div>
-    <script type="text/javascript" charset="utf-8">
-      const getName = document.getElementsByClassName("nam");
-      const justName = document.getElementsByClassName("nami");
-      const constHowGuy = document.getElementsByClassName("howGuy");
-      for (let countit = 0; countit < constHowGuy.length; countit++) {
-        constHowGuy[countit].innerHTML = guyType;
-      }
-      for (let count = 0; count < justName.length; count++) {
-        justName[count].innerHTML = name;
-      }
-      for (let counting = 0; counting < getName.length; counting++) {
-        getName[counting].innerHTML = name + "The" + guyType;
-      }
-      // SET PAGE TITLE
-      let title_el = document.querySelector("title");
-      if (title_el) {
-        title_el.innerHTML = name + "The" + guyType;
-      }
+    <script src="config_load.js" type="text/javascript" charset="utf-8">
     </script>
     <footer>
       <h6>Version 1.2.2022, created by <a href="https://github.com/nicesapien" class="gradecool">NiceSapien</a>. This page may contain fake content, please don't mind. <a id="contact" style="color: rgb(24,203,172);">Contact us</a>

@@ -8,7 +8,7 @@
         justName[count].innerHTML = name;
       }
       for (let counting = 0; counting < getName.length; counting++) {
-        getName[counting].innerHTML = name + "The" + guyType;
+        getName[counting].innerHTML = name + "The" + '<b class="grade">'+guyType+"</b>";
       }
       // SET PAGE TITLE
       let title_el = document.querySelector("title");

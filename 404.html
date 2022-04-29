@@ -22,6 +22,25 @@
         html {
           text-align: center;
         }
+        /* Dark theme start */
+   @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212121;
+        color: white;
+    }
+    input {
+      background-color: #212121;
+      color: white;
+    }
+    ::placeholder {
+      color: white;
+      opacity: 1;
+    }
+    ::-ms-input-placeholder, :-ms-input-placeholder {
+      color: white;
+    }
+}
+/* Dark theme end */
     </style>
 </head>
 <body>

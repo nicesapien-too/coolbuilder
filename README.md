@@ -1,6 +1,8 @@
-# YouTheCool
+# CoolBuilder
 Make yourself the coolest person in the world.
-## Why use YouTheCool?
+
+If you liked the project, please consider giving a star
+## Why use CoolBuilder?
 • Dark theme support
 
 • Attractive UI

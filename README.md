@@ -24,4 +24,4 @@ Make yourself the coolest person in the world.
 3. Configure website the way you want in `config.js`.
 
 ## Contributing
-The code is mainly in public folder. So, I think editing any other file is not needed. However, you might want to edit readme after editing code, you can do that. After making changes to code you can open a pull request. NEVER EVER make changes to any file in `main` branch. Always use `dev` branch.
+You might want to edit readme after editing code, you can do that. After making changes to code you can open a pull request. NEVER EVER make changes to any file in `main` branch. Always use `dev` branch.

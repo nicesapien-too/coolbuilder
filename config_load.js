@@ -15,7 +15,7 @@
       if (title_el) {
         title_el.innerHTML = name + "The" + guyType;
       }
-function () {
+function configContact() {
 if (!contact_email == "") {
 document.getElementById("contact").href = 'mailto:' + contact_email;}
 }

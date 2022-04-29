@@ -20,5 +20,5 @@ function configContact() {
   if (!contact_email == "") {
     contactElem.href = 'mailto:' + contact_email;
   } else {
-  contactElem.style.display = 'none';
-}}
+    contactElem.style.display = 'none';
+  }}

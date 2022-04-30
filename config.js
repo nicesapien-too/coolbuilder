@@ -1,4 +1,4 @@
-    /* EDIT THIS*/
+   /* EDIT THIS*/
 // Your name, real or Nick
 const name = "Nice";
 // What you are? Cool? Legend? Best? or anything else

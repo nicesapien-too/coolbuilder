@@ -16,7 +16,6 @@ Make yourself the greatest person in the world.
 6. Then open file manager and upload files from public folder in the htdocs folder.
 7. Replace "You" with your name in code everywhere.
 8. Open the subdomain you created in a web browser.
-#### Enjoy!
 
 ## Installation (Github)
 1. Fork the repository. 

@@ -18,7 +18,6 @@ If you liked the project, please consider giving a star
 6. Then open file manager and upload files in the htdocs folder.
 7. Configure website the way you want in `config.js`.
 8. Open the subdomain you created in a web browser.
-#### Enjoy!
 
 ## Hosting (Github)
 1. Fork the repository.

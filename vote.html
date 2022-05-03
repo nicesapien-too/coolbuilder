@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+      <!--- REMOVE THIS META TAG IF YOU WANT THIS PAGE TO APPEAR IN GOOGLE, BING, YAHOO AND OTHER SEARCH ENGINES -->
+    <meta name=”robots” content=”noindex”>
     <title>Voting</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <meta name="description" content="Who will you vote? Me or You?">
+    <meta name="description" content="Who will you vote?">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <style>
         h1 {
@@ -45,13 +47,8 @@ function poop() {
     var random = ~~(Math.random() * whoiscool.length);
     var target = document.getElementById("targetl");
 target.innerText = whoiscool[random];
-if (random == 1) {
-document.getElementById("fart").innerHTML += "<p>Thank you for voting<a><b>YouTheGreat</b></a></p>";
-    }
     };
     poop();
     </script>
-    
-    <div id="fart"></div>
 </body>
 </html>

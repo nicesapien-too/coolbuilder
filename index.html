@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <style>
       /* Dark theme start */
       @media (prefers-color-scheme: dark) {
@@ -46,7 +47,7 @@
       }
 
       .w3-animate-left:hover {
-        background: rgb(24, 203, 172) radial-gradient(circle, transparent 1%, rgb(24, 203, 172) 1%) center/15000%;
+        background: #9932CC radial-gradient(circle, transparent 1%, #9932CC 1%) center/15000%;
       }
 
       .w3-animate-left:active {
@@ -65,38 +66,46 @@
         font-size: 16px;
         cursor: pointer;
         color: white;
-        background-color: rgb(24, 203, 172);
+        background-color: #9932CC;
         box-shadow: 0 0 4px #999;
         visibility: visible;
       }
 
       .grade {
-        background: linear-gradient(to right, #fa709a, rgb(24, 203, 172));
+        background: linear-gradient(to right, #fa709a, #9932CC);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
       }
 
       .gradecool {
-        background: linear-gradient(to right, #0ba360, #fe9a8b);
+        background: linear-gradient(to right, #0ba360, #6c63ff);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+      }
+      .peopleborder {
+        border-style: solid;
+        border-radius: 15px;
+        border-color: #9932CC
       }
     </style>
     <style type="text/css" media="all">
                   @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+                  
+  /@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
     </style>
     <link href="/css/footer_credits.css" type="text/css" rel="stylesheet">
   </head>
-  <body>
+  <body style="font-family: 'Cairo';">
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
     <div class="w3-container">
-      <h1 class="w3-center w3-animate-top nam" style="font-family: 'Lato', sans-serif;">YouThe <b class="grade">Great</b>
+      <h1 class="w3-center w3-animate-top nam" style="font-family: 'VT323', monospace;">YouThe <b class="grade">Great</b>
       </h1>
     </div>
-    <p style="font-family: 'Dongle', sans-serif; font-size: 25px;" class="w3-animate-zoom">
-      <b>Hi, my <a class="relation">bro</a> is the <span class="grade">greatest</span> person </b> in the world and belongs to Canada. Want to know more? He lives in <b>Toronto</b>. Btw I am also very cool. Do you know why he is <span class="grade howGuy">great</span>? I also <b>don't know.</b> But I know He is cool. He has a Lampginni. He works on amazing projects like him - Famous operating system Amroid is created by him. He's the owner and founder of Doolle.
+    <p id="description" style="font-family: 'Dongle', sans-serif; font-size: 25px;" class="w3-animate-zoom">
+      <b> This is the place where description from config.js comes.
     </p>
     
     <div class="w3-container">
@@ -107,28 +116,28 @@
     </a>
     <br />
     <div>
-      <h3 style="font-family: 'Lato', sans-serif;">See what people say about <span class="nam">YouTheCool</span>
+      <h3 style="font-family: 'Lato', sans-serif;">See what people say about <span class="nami grade">YouTheCool</span>
       </h3>
-      <div style="border-style: solid; border-radius: 15px; border-color: rgb(24,203,172);">
+      <div class="peopleborder">
         <p>"<a style="font-family: 'Lato', sans-serif;"><b class="nami">YouTheGreat</b>
-          </a> is not just <span class="grade howGuy">great</span>, He's every good thing you can imagine. That's why he owns <a href="" style="color: rgb(24,203,172);">this website</a>" <br />
+          </a> is not just <span class="grade howGuy">great</span>, He's every good thing you can imagine. That's why he owns <a href="" style="color: #9932CC;">this website</a>" <br />
         <p style="text-align: right; font-family: 'Cairo', sans-serif;">- Cunder Pitch, Gugul's CEO</p>
         </p>
       </div>
       </br>
-      <div style="border-style: solid; border-radius: 15px; border-color: rgb(24,203,172);">
+      <div class="peopleborder">
         <p>"Today, I'm first time saying, <span class="nami">You</span> is <span class="grade">better</span> than me. I always say I'm best, but today I'm saying <span class="nami">You</span> is best and I'm not." <br />
         <p style="text-align: right; font-family: 'Cairo', sans-serif;">- Jeph Bejaus</p>
         </p>
       </div>
       <br />
-      <div style="border-style: solid; border-radius: 15px; border-color: rgb(24,203,172);">
+      <div class="peopleborder">
         <p>"I'm very big fan of <span class="nami">You</span>. I'm Inspired from him." <br />
         <p style="text-align: right; font-family: 'Cairo', sans-serif;">- Cristano Ronoldo</p>
         </p>
       </div>
       </br>
-      <div style="border-style: solid; border-radius: 15px; border-color: rgb(24,203,172);">
+      <div class="peopleborder">
         <p>"<span class="nami">You</span> is amazing. I'm nothing in front of him. <span class="nami">You</span> is the <b class="grade">best</b>" <br />
         <p style="text-align: right; font-family: 'Cairo', sans-serif;">- Bell Lates, Microloft Co-Founder</p>
         </p>
@@ -138,8 +147,8 @@
       <input type="text" style="width: 100%;" placeholder="Type your comment"></input>
       </br>
       </br>
-      <div style="border-style: solid; border-color: rgb(24,203,172);">
-        <p style="text-align: left; font-family: 'Cairo', sans-serif;">Naruk Jukerberg</p>
+      <div style="border-style: solid; border-color: #9932CC;">
+        <p style="text-align: left; font-family: 'Cairo', sans-serif;">Elon Mask</p>
         <p>I would like to say the same Cristano Ronoldo said.</p>
       </div>
       <br />

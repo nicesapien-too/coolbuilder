@@ -14,7 +14,7 @@
       }
 
       h1 {
-        color: rgb(24, 203, 172);
+        color: #9932CC;
         font-family: 'lato', 'Sans-Serif';
       }
 
@@ -32,6 +32,9 @@
 
       /* Dark theme start */
       @media (prefers-color-scheme: dark) {
+        #lightOnly {
+          display: none;
+        }
         body {
           background-color: #212121;
           color: white;
@@ -60,7 +63,9 @@
   <body>
     <h1>What?</h1>
     <h5>404</h5>
-    <p> The requested URL was not found on the server. That's all we know. <a style="color: rgb(24,203,172);" href="/">Home</a>
+      <img id="lightOnly" src="img/404.png" style="max-width: 100%; height: auto;">
+    <p> The requested URL was not found on the server. That's all we know. <a style="color: #9932CC;" href="/">Home</a>
     <div style="font-family: Roboto;" id="footer" onclick="location.href = 'http://nicesapien.is-a.dev/'"> Built by NiceSapien </div>
+  
   </body>
 </html>
